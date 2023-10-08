@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+web_modules/
+.yarn
+
+# Testing
+coverage
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Nextjs
+.next/
+.swc/
+out/
+build
+/public/build
+
+# blitz
+/.blitz/
+/.next/
+*.sqlite
+*.sqlite-journal
+.now
+.blitz**
+blitz-log.log
+postgres-data
+
+# Expo
+.expo/
+web-build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+dist
+*.tsbuildinfo
+
+# debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env
+.env.development
+.env.staging
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Turbo/Vercel
+.turbo
+.vercel
+
+# tamagui
+.tamagui
